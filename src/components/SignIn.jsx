@@ -20,7 +20,7 @@ const SignIn = () => {
         };
         //update logged in user
         fetch(
-          "https://coffee-store-server-1krj1b99i-practices-projects-15d3f04c.vercel.app/user",
+          "https://coffee-store-server-kr3ukxn8k-practices-projects-15d3f04c.vercel.app/user",
           {
             method: "PATCH",
             headers: {

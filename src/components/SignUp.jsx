@@ -18,7 +18,7 @@ const SignUp = () => {
         const user = { email, createdAt };
 
         fetch(
-          "https://coffee-store-server-1krj1b99i-practices-projects-15d3f04c.vercel.app/user",
+          "https://coffee-store-server-kr3ukxn8k-practices-projects-15d3f04c.vercel.app/user",
           {
             method: "POST",
             headers: {
@@ -48,6 +48,8 @@ const SignUp = () => {
               });
             }
           });
+        
+        
       })
       .catch((error) => {
         console.error(error);
