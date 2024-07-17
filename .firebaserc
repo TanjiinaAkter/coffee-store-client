@@ -1,5 +1,9 @@
 {
   "projects": {
-    "default": "coffee-store-c2d16"
-  }
+    "default": "coffee-store-client-fc626",
+    "prod": "coffee-store-client-fc626"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }
